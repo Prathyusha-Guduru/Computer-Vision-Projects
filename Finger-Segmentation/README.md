@@ -14,3 +14,8 @@ DETECTING FINGERS :
 5.Creating a circular ROI with radius being 90% of the maximum euclidean distance and masking it on the thresholded version.
 
 6.All the external contours are then detected in the imaginary circular ROI and contours which lie in the limit_points(circumference of the circular ROI) and out_of_wrist (Height greater than wrist points) are detected as fingers and no.of finger counters are counted hence giving the no.of fingers.
+
+
+# Demo :
+
+![Demonstration](https://github.com/Prathyusha-Guduru/Data/blob/master/Finger%20Detection%20and%20Segmenting.gif)
