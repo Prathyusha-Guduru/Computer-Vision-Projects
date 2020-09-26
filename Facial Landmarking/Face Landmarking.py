@@ -17,6 +17,7 @@ import dlib
 
 
 cap = cv2.VideoCapture(0)
+#For detecting the facce by using HOG feature descriptos and Linear SVM Object Detector
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 # predictor = dlib.shape_predictor(args["shape_predictor"])
