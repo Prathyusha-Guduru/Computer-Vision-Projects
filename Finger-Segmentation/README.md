@@ -18,4 +18,4 @@ DETECTING FINGERS :
 
 # Demo :
 
-![Demonstration](https://github.com/Prathyusha-Guduru/Data/blob/master/Finger%20Detection%20and%20Segmenting.gif)
+![Demonsddtration](https://github.com/Prathyusha-Guduru/Data/blob/master/Finger%20Detection%20and%20Segmenting.gif)
