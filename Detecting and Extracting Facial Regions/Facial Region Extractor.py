@@ -12,7 +12,7 @@ face_landmark = OrderedDict([
 	("left_eyebrow", (22, 27)),
 	("right_eye", (36, 42)),
 	("left_eye", (42, 48)),
-	("nose", (27, 35)),
+	("nose", (27, 36)),
 	("jaw", (0, 17))
 ])
 
