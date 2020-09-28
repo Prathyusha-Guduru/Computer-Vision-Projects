@@ -49,12 +49,12 @@ def calc_ear(eye):
 cap = cv2.VideoCapture(0)
 
 
-EYE_AR_THRESH = 0.25
+EAR_Tresh = 0.25
 
 
-EYE_AR_CONSEC_FRAMES = 4
-COUNTER = 0
-TOTAL = 0
+EYE_Consec_frames = 4
+counter = 0
+total = 0
 
 while True:
     # Reading from the webcam
@@ -88,15 +88,15 @@ while True:
             ear =(right_ear + left_ear) / 2.0
 
 
-            if ear < EYE_AR_THRESH:
-                COUNTER+=1
+            if ear < EAR_Tresh:
+                counter+=1
 
             else:
-                if COUNTER >= EYE_AR_CONSEC_FRAMES:
-                    TOTAL  +=1
-                COUNTER = 0
-            cv2.putText(frame, "Blinks: {}".format(TOTAL), (10, 30),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                if counter >= EYE_Consec_frames:
+                    total  +=1
+                counter = 0
+            cv2.putText(frame, "Blinks: {}".format(total), (10, 30),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255), 2)
             cv2.putText(frame, "EAR: {:.2f}".format(ear), (300, 30),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 
