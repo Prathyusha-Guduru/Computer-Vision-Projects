@@ -1,3 +1,2 @@
-# Gesture-Identification : 
-
-Gesture detection and segmentation using Deep Learining techniques with Keras (with Tensorflow backend) and OpenCV implemented in Python.
+# Computer-Vision-Projects : 
+Fun projects built using openCV and dlib with Python.
