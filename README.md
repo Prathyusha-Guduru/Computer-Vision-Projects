@@ -1,2 +1,3 @@
 # Computer-Vision-Projects : 
-Fun projects built using openCV and dlib with Python.
+Fun random projects built using openCV and dlib with Python.
+* 
