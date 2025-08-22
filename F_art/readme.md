@@ -1,0 +1,3 @@
+- Detects temperature using thermal footage
+- Sends diffusion of the fart to port 5005
+- Touch designer catches this value and creates music and motion art based on this
